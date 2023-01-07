@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#canvas{
+    width: 100vw;
+    height: 96vh;
+    border: 5px solid #802bb1;
+}
+
+
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.buttons li{
+    margin: 0 30px;
+}
+
+.buttons #black{
+    background-color: black;
+    border: none;
+    width: 40px;
+    height: 20px;
+}
+.buttons #red{
+    border: none;
+    background-color: red;
+    height: 20px;
+    width: 40px;
+}
+.buttons #blue{
+    background-color: blue;
+    border: none;
+    height: 20px;
+    width: 40px;
+}
+.buttons #yellow{
+    background-color: yellow;
+    border: none;
+    height: 20px;
+    width: 40px;
+}
