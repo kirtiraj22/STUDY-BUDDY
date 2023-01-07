@@ -10,15 +10,12 @@
 </head>
 <body>
     <section>
-      <input type="checkbox" id="check">
       <header>
-        <h2><a href="#" class="logo">LOGO</a></h2>
+        <h2><a href="#" class="logo">STUDY BUDDY</a></h2>
         <div class="navigation">
           <a href="#">Home</a>
-          <a href="#">Services</a>
-          <a href="#">Demo</a>
-          <a href="#">Team</a>
-          <a href="#">Contact Us</a>
+          <a href="#services">Services</a>
+          <a href="#team">Team</a>
         </div>
         <label for="">
           <i class="fas fa-bars menu-btn"></i>
@@ -27,9 +24,63 @@
       </header>
       <div class="content">
         <div class="info">
-          <h2>OUR WEBSITE</h2>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae reiciendis ad velit dicta explicabo!</p>
-          <a href="#" class="info-btn">More Info</a>
+          <h2>About Us</h2>
+          <p>Study Buddy is a platform that allows users to interact with each through video call and a real time collaborative whiteboard.</p>
+          <a href="./video/sender/sender.html" class="info-btn">Make Call</a>
+          <a href="./video/receiver/receiver.html" class="info-btn">Join Call</a>
+          <a href="./whiteboard/public/index.html" class="info-btn">Whiteboard</a>
+        </div>
+        <div class="image">
+          <img src="assets/images/friends.webp" alt="">
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="services" id="services">
+        <div class="heading">
+          <h1>Services</h1>
+        </div>
+        <div class="inside">
+        <div class="whiteboard">
+          <h1>Collaborative Whiteboard</h1>
+          <img src="assets/images/whiteboard.jpg" alt="">
+          <p>Teach your friend with a real time collaborative whiteboard</p>
+        </div>
+        <div class="video-call">
+          <h1>Video call</h1>
+          <img src="assets/images/video.png" alt="">
+          <p>Interact with each other through video and audio</p>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section>
+      <div class="team" id="team">
+        <div class="heading">
+          <h1>Team</h1>
+        </div>
+        <div class="inside">
+          <div class="member1">
+            <img src="assets/images/kirtiraj.jpg" alt="">
+            <h3>Kirtiraj</h3>
+            <p>I am a frontend developer. I love contributing in opensource projects.Currently i am learning react.</p>
+            <div class="socials">
+              <a href="https://github.com/kirtiraj22"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/kirtiraj-thakor-0a5440204/"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://twitter.com/kirtirajthakor"><i class="fa-brands fa-twitter"></i></a>
+              
+            </div>
+          </div>
+          <div class="member2">
+            <img src="assets/images/mohit.jpeg" alt="">
+            <h3>Mohit</h3>
+            <p>I am a frontend developer and i love reading books.I am also a content creator trying my hands on with video editing.</p>
+            <div class="socials">
+              <a href="https://github.com/mohitparmar1"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/mohit-parmar-144456223"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://twitter.com/mohitparmar1_"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+          </div>
         </div>
       </div>
     </section>

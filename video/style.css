@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root{
+  --dark-bg : #2d283e;
+  --text-color : #d83f87;
+  --grey : #564f6f;
+  --dark-grey : #4c495d;
+  --light : #fff;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  overflow: hidden;
+}
+
 #video-call-div {
     position: absolute;
     top: 0;
@@ -30,6 +49,36 @@
     bottom: 32px;
 }
 
+input{
+    width: 400px;
+    font-size: 20px;
+    color: black;
+    margin: 40px;
+}
+
 button {
     cursor: pointer;
+    padding: 10px;
+    background: var(--light);
+    color: var(--text-color);
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+
+.container{
+    border: 1px solid black;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--dark-bg);
+    display: flex;
+}
+
+.pre-video{
+    border: 1px solid white;
+    height: 200px;
+    width: 470px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
 }
